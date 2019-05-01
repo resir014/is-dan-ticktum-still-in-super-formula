@@ -1,0 +1,27 @@
+{
+  "name": "is-dan-ticktum-still-in-super-formula",
+  "version": "1.0.0",
+  "description": "Is Dan Ticktum still in Super Formula?",
+  "main": "N/A",
+  "repository": "https://github.com/resir014/is-dan-ticktum-still-in-super-formula.git",
+  "author": "Resi Respati <resir014@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "deploy": "next build && next export",
+    "dev": "next",
+    "export": "next export",
+    "serve": "serve ./out",
+    "start": "next start"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.5.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "serve": "^11.0.0"
+  }
+}
