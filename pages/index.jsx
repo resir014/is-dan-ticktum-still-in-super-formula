@@ -18,7 +18,18 @@ export default function IndexPage() {
         <meta property="og:image:height" content="630" />
         <meta property="og:image:width" content="1200" />
       </Head>
-      <h1>Yes.</h1>
+      <div className="inner">
+        <h1>No!</h1>
+        <p>
+          <a
+            href="https://www.motorsport.com/super-formula/news/red-bull-drops-junior-ticktum/4483618/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Red Bull drops Ticktum from junior programme – Motorsport.com
+          </a>
+        </p>
+      </div>
       <style jsx global>
         {normalize}
       </style>
@@ -42,6 +53,10 @@ export default function IndexPage() {
           padding: 24px;
         }
 
+        .inner {
+          text-align: center;
+        }
+
         h1 {
           margin: 0;
           font-size: 48px;
@@ -53,12 +68,20 @@ export default function IndexPage() {
             font-size: 72px;
             line-height: 80px;
           }
+
+          p {
+            font-size: 18px;
+          }
         }
 
         @media (min-width: 1280px) {
           h1 {
             font-size: 96px;
             line-height: 104px;
+          }
+
+          p {
+            font-size: 20px;
           }
         }
       `}</style>
